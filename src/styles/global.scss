@@ -1,0 +1,90 @@
+body, html {
+    width: 100%;
+    background-color: blue;
+}
+
+.Header {
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    height: 80px;
+    width: 100%;
+
+    &__logo {
+        margin-left: 100px;
+    }
+}
+
+.Icon {
+    position: relative;
+    z-index: 5;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    margin-right: 100px;
+    cursor: pointer;
+
+    &--svg {
+        width: 30px;
+        height: auto;
+    }
+}
+
+.Navigation {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(395px);
+    width: 395px;
+    height: 100%;
+    background-color: #5E2BFF;
+    transition: 300ms ease;
+    box-shadow: -25px 0px 100px rgba(0, 0, 0, 0.15);
+
+
+    &--open {
+        transform: translateX(0px);
+    }
+
+    &__nav {
+        margin-top: 150px;
+
+        &--li {
+            margin: 35px 0px;
+        }
+
+        &--link {
+            position: relative;
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: #F7F6C5;
+            text-decoration: none;
+            transition: 200ms ease;
+
+            &--active {
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0px;
+                    right: 0px;
+                    display: block;
+                    height: 5px;
+                    background-color: #F7F6C5;
+                }
+            }
+
+            &:hover, &:focus {
+                color: #AA90E2;
+            }
+        }
+    }
+}
