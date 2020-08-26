@@ -27,7 +27,7 @@ const Landing = () => {
                         className="Landing"
                         fluid={image}
                     >
-                        <h1 className="Landing__heading">Creating inovative modern <span className="Landing__heading--keyword">workbooks</span> to help increase your <span className="Landing__heading--keyword">childs</span> engagement.</h1>
+                        <h1 className="Landing__heading">Creating inovative modern <span className="Landing__heading--keyword">workbooks</span> to help increase your <span className="Landing__heading--keyword">child's</span> engagement.</h1>
                         <div className="Landing__buttons">
                             <Link to={`/workbooks`} className="Landing__buttons--btn Landing__buttons--btn--primary" >Workbooks</Link>
                             <Link to={`/tutoring`} className="Landing__buttons--btn Landing__buttons--btn--secondary" >Tutoring</Link>
