@@ -1,6 +1,5 @@
 body, html {
     width: 100%;
-    background-color: blue;
 }
 
 .Header {
@@ -25,10 +24,15 @@ body, html {
     color: #ffffff;
     margin-right: 100px;
     cursor: pointer;
+    transition: 200ms ease;
 
     &--svg {
         width: 30px;
         height: auto;
+    }
+
+    &:hover, &:focus {
+        color: #bdbdbd;
     }
 }
 
@@ -85,6 +89,100 @@ body, html {
             &:hover, &:focus {
                 color: #AA90E2;
             }
+        }
+    }
+}
+
+.Landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &__heading {
+        font-family: Lora, serif;
+        font-size: 42px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin: 0px 200px;
+        margin-bottom: 100px;
+
+        &--keyword {
+            color: #FC6DAB;
+        }
+    }
+
+    &__buttons {
+
+        &--btn {
+            font-family: Montserrat, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            padding: 0.8em 4em;
+            text-decoration: none;
+            box-sizing: border-box;
+            width: 100%;
+            border: 3px solid #639A88;
+            transition: 200ms ease;
+
+            &--primary {
+                background-color: #639A88;
+                margin-right: 20px;
+            }
+
+            &:hover, &:focus {
+                background-color: #528473;
+                border-color: #528473;
+            }
+        }
+    }
+
+    &__social {
+        position: absolute;
+        z-index: 15;
+        bottom: 50px;
+        right: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--link {
+            color: #ffffff;
+            transition: 200ms ease;
+
+            &--icon {
+                width: 24px;
+                height: auto;
+            }
+
+            &:hover, &:focus {
+                color: #bdbdbd;
+            }
+        }
+    }
+
+    &__scrollLink {
+        position: absolute;
+        bottom: 30px;
+        right: 50%;
+        transform: translateX(50%);
+        color: #ffffff;
+        transition: 200ms ease;
+        padding: 1em;
+
+        &--icon {
+            transform: rotate(90deg);
+            width: 24px;
+            height: auto;
+        }
+
+        &:hover, &:focus {
+            transform: translate(50%, 15px);
+            color: #bdbdbd;
         }
     }
 }
