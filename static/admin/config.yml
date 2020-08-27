@@ -24,6 +24,7 @@ collections:
       preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-post"}
+      - {label: "Featured Article", name: "featured-article", widget: "boolean", default: false}
       - { label: 'Featured Image', name: 'featured-image', widget: 'image'}
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -42,6 +43,7 @@ collections:
       preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workbook-post"}
+      - {label: "Featured Workbook", name: "featured-workbook", widget: "boolean", default: false}
       - { label: 'Cover Image', name: 'cover-image', widget: 'image' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
