@@ -23,10 +23,11 @@ collections:
     editor:
       preview: false
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-post"}
       - { label: 'Featured Image', name: 'featured-image', widget: 'image'}
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   
   - name: 'workbooks'
@@ -40,10 +41,11 @@ collections:
     editor:
       preview: false
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workbook-post"}
       - { label: 'Cover Image', name: 'cover-image', widget: 'image' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Price', name: 'price', widget: 'string' }
       - label: "Gallery"
         name: "galleryImages"
