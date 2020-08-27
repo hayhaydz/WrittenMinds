@@ -23,7 +23,7 @@ const HomeWhy = () => {
                     <section className="HomeWhy">
                         <Img fluid={image} className="HomeWhy__img"/>
                         <div className="HomeWhy__container">
-                            <h1 class="HomeWhy__container--title">Why WrittenMinds?</h1>
+                            <h1 className="HomeWhy__container--title">Why WrittenMinds?</h1>
                             <p className="HomeWhy__container--text">Having spent two-years tutoring and developing workbooks and tasks that improve spelling, thinking and written ability, we know how to capture your children's imaginations and immerse them in learning.</p>
                             <HomeBtn to="/about" text="Learn more about us" />
                         </div>

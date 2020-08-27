@@ -11,9 +11,14 @@ body, html {
     align-items:  center;
     height: 80px;
     width: 100%;
+    transition: 300ms ease;
 
     &__logo {
         margin-left: 100px;
+    }
+
+    &--scrolling {
+        background-color: #5E2BFF;
     }
 }
 
