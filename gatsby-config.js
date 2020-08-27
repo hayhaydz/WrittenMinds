@@ -1,7 +1,6 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
-    `gatsby-plugin-anchor-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-image`,
@@ -36,6 +35,12 @@ module.exports = {
             }
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-anchor-links`,
+      options: {
+        offset: -200
       }
     },
     `gatsby-plugin-netlify-cms`

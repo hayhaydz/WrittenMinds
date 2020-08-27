@@ -20,7 +20,7 @@ const HomeWhy = () => {
             render={data => {
                 const image = data.file.childImageSharp.fluid
                 return (
-                    <section className="HomeWhy">
+                    <section className="HomeWhy" id="why">
                         <Img fluid={image} className="HomeWhy__img"/>
                         <div className="HomeWhy__container">
                             <h1 className="HomeWhy__container--title">Why WrittenMinds?</h1>

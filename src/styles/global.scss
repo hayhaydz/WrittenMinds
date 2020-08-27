@@ -421,3 +421,88 @@ body, html {
         color: #E8E8E8;
     }
 }
+
+.FeaturedWorkbook {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
+    background-color: #3A0B81;
+    padding: 0px 100px;
+    padding-top: 100px;
+
+    &__img {
+        width: 50%;
+        // width: 40%;
+        height: 800px;
+        box-shadow: 10px 25px 100px rgba(0, 0, 0, 0.15);
+    }
+
+    &__right {
+        position: relative;
+        margin-left: 20px;
+        color: #ffffff;
+
+        &--title {
+            font-family: Lora, serif;
+            font-size: 64px;
+            font-weight: 700;
+        }
+
+        &--detail-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #C8C8C8;
+            margin-bottom: 5px;
+        }
+
+        &--price {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 0px 0px;
+            margin-bottom: 50px;
+        }
+
+        &--link {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 1em 4em;
+            background-color: #C8F881;
+            color: #3A0B81;
+            text-decoration: none;
+            transition: 200ms ease;
+
+            &:hover, &:focus {
+                background-color: #9fc762;
+            }
+        }
+
+        &--scrollLink {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            font-size: 18px;
+            font-weight: 500;
+            color: #DFDFDF;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            transition: 200ms ease;
+
+            &:hover, &:focus {
+                color: #C8C8C8;
+            }
+
+            &--icon {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.WorkbookRoll {
+    margin: 200px 100px;
+    margin-top: 300px;
+    height: 1000px;
+}
