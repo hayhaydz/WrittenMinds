@@ -8,12 +8,11 @@ import Navigation from './Navigation/Navigation'
 
 const Header = () => {
     const [open, setOpen ] = useState(false);
-    const [hideOnScroll, setHideOnScroll] = useState(true)
+    const [hideOnScroll, setHideOnScroll] = useState(false)
 
     useScrollPosition(
         ({ currPos }) => {
             const isShow = currPos.y < 0
-            console.log(isShow)
             if (isShow !== hideOnScroll) setHideOnScroll(isShow)
         },
         [hideOnScroll]
