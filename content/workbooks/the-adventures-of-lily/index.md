@@ -1,5 +1,6 @@
 ---
 templateKey: workbook-post
+featured-workbook: true
 cover-image: canva-colorful-abstract-adventure-children-s-book-cover-yt1ffarv3nc.jpg
 title: The Adventures of Lily
 date: 2020-08-27T08:58:50.151Z
