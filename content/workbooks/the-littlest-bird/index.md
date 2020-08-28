@@ -9,5 +9,9 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suscipit
   sed dui neque netus tortor nam. Ac pellentesque nulla libero enim, libero,
   cras tincidunt consectetur dolor.
 price: Free
-galleryImages: []
+workbook-pdf: canva-yellow-brown-bird-illustration-little-childrens-book-cover-yikgjcrez7g.jpg
+galleryImages:
+  - colors-rainbow-counting-numbers-nature.jpg
+  - practice-tracing-letter.jpg
+  - single-digit-addition-first-grade.jpg
 ---
