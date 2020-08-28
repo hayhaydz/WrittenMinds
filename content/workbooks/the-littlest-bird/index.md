@@ -9,8 +9,5 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suscipit
   sed dui neque netus tortor nam. Ac pellentesque nulla libero enim, libero,
   cras tincidunt consectetur dolor.
 price: Free
-galleryImages:
-  - colors-rainbow-counting-numbers-nature.gif
-  - practice-tracing-letter.gif
-  - single-digit-addition-first-grade.png
+galleryImages: []
 ---
