@@ -5,6 +5,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-image`,
     `gatsby-background-image`,
+    `simple-react-lightbox`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

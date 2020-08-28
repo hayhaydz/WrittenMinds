@@ -8,7 +8,7 @@ const Footer = () => {
             <section className="Footer__container">
                 <h1 className="Footer__container--title" >Looking for a Workbook?</h1>
                 <h3 className="Footer__container--subtitle" >Take a look at our selection!</h3>
-                <Link to={`/tutoring`} className="Footer__container--link" >Workbooks</Link>
+                <Link to={`/workbooks`} className="Footer__container--link" >Workbooks</Link>
             </section>
             <section className="Footer__container">
                 <h1 className="Footer__container--title" >Looking for a Tutor?</h1>

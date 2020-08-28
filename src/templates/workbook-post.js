@@ -2,11 +2,23 @@ import React, { useState } from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { MdFileDownload } from 'react-icons/md'
+import { SRLWrapper } from 'simple-react-lightbox'
 
 import Layout from '../components/Layout/Layout'
+import OtherWorkbooks from '../components/OtherWorkbooks/OtherWorkbooks'
 
 const Workbook = ({ data }) => {
     const [downloading, setDownloading] = useState(false)
+    const options = {
+        buttons: {
+            showAutoplayButton: false,
+            showDownloadButton: false,
+            showThumbnailsButton: false
+        },
+        thumbnails: {
+            showThumbnails: false
+        }
+    }
 
     return (
         <Layout>
@@ -25,8 +37,17 @@ const Workbook = ({ data }) => {
                             : 'Downloading...'
                         }
                     <MdFileDownload className="Workbook__right--download--icon"/></a>
+                    <span className="Workbook__right--detail-title">PAGE EXAMPLES</span>
+                    <SRLWrapper options={options}>
+                        <div className="Workbook__right--preview">
+                            {data.markdownRemark.frontmatter.galleryImages.map((data, index) =>(
+                                <Img fluid={data.childImageSharp.fluid} key={index} className="Workbook__right--preview--img" />
+                            ))}
+                        </div>
+                    </SRLWrapper>
                 </div>
             </article>
+            <OtherWorkbooks currentWorkbook={data}/>
         </Layout>
     )
 }

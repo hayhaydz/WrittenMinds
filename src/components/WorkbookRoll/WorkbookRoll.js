@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 const WorkbookRoll = ({ workbookData }) => {
-    console.log(workbookData);
     return (
         <section className="WorkbookRoll" id="workbookRoll">
             {workbookData.map((data, index) => {
