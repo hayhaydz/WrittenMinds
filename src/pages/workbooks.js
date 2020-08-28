@@ -12,9 +12,11 @@ const Workbooks = ({ data }) => {
     if(workbook.node.frontmatter.featured_workbook) {
       featuredWorkbook = workbook.node
       break
-    } else {
-      featuredWorkbook = workbook
     }
+  }
+  if(featuredWorkbook === undefined) {
+    featuredWorkbook = workbookData[0].node
+    featuredWorkbook.frontmatter.featured_workbook = true
   }
 
   return (
