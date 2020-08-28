@@ -33,8 +33,6 @@ export const pageQuery = graphql`
           }
           frontmatter {
             featured_workbook
-            date(formatString: "DD/MM/YYYY")
-            description
             title
             price
             cover_image {

@@ -1,10 +1,19 @@
 import React from 'react'
+import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
 const WorkbookRoll = ({ workbookData }) => {
     console.log(workbookData);
     return (
         <section className="WorkbookRoll" id="workbookRoll">
-            <h1>workbook roll</h1>
+            {workbookData.map((data, index) => {
+                return !data.node.frontmatter.featured_workbook &&
+                    <Link to={data.node.fields.slug} key={index} className="WorkbookRoll__link">
+                        <p className="WorkbookRoll__link--title">{data.node.frontmatter.title}</p>
+                        <Img fluid={data.node.frontmatter.cover_image.childImageSharp.fluid} className="WorkbookRoll__link--img"/>
+                    </Link>
+            }
+            )}
         </section>
     )
 }
