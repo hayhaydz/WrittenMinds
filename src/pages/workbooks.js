@@ -11,6 +11,9 @@ const Workbooks = ({ data }) => {
   for(const workbook of workbookData) {
     if(workbook.node.frontmatter.featured_workbook) {
       featuredWorkbook = workbook.node
+      break
+    } else {
+      featuredWorkbook = workbook
     }
   }
 
