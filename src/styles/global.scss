@@ -432,7 +432,6 @@ body, html {
 
     &__img {
         width: 50%;
-        // width: 40%;
         height: 800px;
         box-shadow: 10px 25px 100px rgba(0, 0, 0, 0.15);
     }
@@ -556,7 +555,7 @@ body, html {
     }
 }
 
-.WorkbookPost {
+.Workbook {
     &:before {
         content: '';
         position: absolute;
@@ -567,5 +566,81 @@ body, html {
         background-color: #3A0B81;
     }
 
-    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-top: 100px;
+    height: 2000px;
+
+    &__img {
+        flex-shrink: 0;
+        width: 50%;
+        height: 50%;
+        box-shadow: 10px 25px 100px rgba(0, 0, 0, 0.15);
+    }
+
+    &__right {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 50px;
+
+        &--detail-title {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            color: #B8B8B8;
+            margin-bottom: 5px;
+        }
+
+        &--title {
+            font-family: Lora, serif;
+            font-size: 72px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 0px;
+            margin-bottom: 100px;
+        }
+
+        &--desc {
+            font-size: 18px;
+            font-weight: 500;
+            color: #1A1A1A;
+            line-height: 1.2em;
+            margin-bottom: 25px;
+        }
+
+        &--price {
+            font-size: 20px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+
+        &--download {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3A0B81;
+            text-align: center;
+            width: 295px;
+            height: 70px;
+            // padding: 1em 4em;
+            background-color: #C8F881;
+            text-decoration: none;
+            transition: 200ms ease;
+
+            &:hover, &:focus {
+                background-color: #9fc762;
+            }
+
+            &--icon {
+                position: absolute;
+                right: 25px;
+            }
+        }
+    }
 }
