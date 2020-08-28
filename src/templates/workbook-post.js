@@ -30,13 +30,6 @@ export const pageQuery = graphql`
                         }
                     }
                 }
-                galleryImages {
-                    childImageSharp {
-                      fluid(maxWidth: 1920, quality: 100) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                    }
-                  }
             }
         }
     }
