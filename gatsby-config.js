@@ -6,6 +6,7 @@ module.exports = {
     `gatsby-image`,
     `gatsby-background-image`,
     `simple-react-lightbox`,
+    `typewriter-effect`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
