@@ -9,9 +9,9 @@ const Navigation = ({ open, setOpen }) => {
                 <ul className="Navigation__nav--ul">
                     <li className="Navigation__nav--li"><Link to={`/`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active">Home</Link></li>
                     <li className="Navigation__nav--li"><Link to={`/workbooks`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active" partiallyActive={true}>Workbooks</Link></li>
-                    <li className="Navigation__nav--li"><Link to={`/tutoring`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active">Tutoring</Link></li>
+                    <li className="Navigation__nav--li"><Link to={`/tutoring`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active" partiallyActive={true}>Tutoring</Link></li>
                     <li className="Navigation__nav--li"><Link to={`/about`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active">About</Link></li>
-                    <li className="Navigation__nav--li"><Link to={`/blog`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active">Blog</Link></li>
+                    <li className="Navigation__nav--li"><Link to={`/blog`} className="Navigation__nav--link" activeClassName="Navigation__nav--link--active" partiallyActive={true}>Blog</Link></li>
                 </ul>
             </nav>
             <div className="Navigation__social">
