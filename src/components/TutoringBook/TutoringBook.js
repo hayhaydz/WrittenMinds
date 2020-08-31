@@ -5,7 +5,7 @@ const TutoringBook = () => {
         <section className="TutoringBook" id="book">
             <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="Bookings" className="TutoringBook__form">
                 <input type="hidden" name="bot-field"/>
-                <input type="hidden" name="form-name" value="book"/>
+                <input type="hidden" name="form-name" value="Bookings"/>
                 <div className="TutoringBook__form--rowHalf">
                     <input type="text" name="Name" className="TutoringBook__form--input" placeholder="Name" required/>
                     <input type="email" name="Email" className="TutoringBook__form--input" placeholder="Email" required/>
