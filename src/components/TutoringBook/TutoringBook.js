@@ -2,8 +2,8 @@ import React from 'react'
 
 const TutoringBook = () => {
     return (
-        <section className="TutoringBook">
-            <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="book" className="TutoringBook__form">
+        <section className="TutoringBook" id="book">
+            <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="Bookings" className="TutoringBook__form">
                 <input type="hidden" name="bot-field"/>
                 <input type="hidden" name="form-name" value="book"/>
                 <div className="TutoringBook__form--rowHalf">
