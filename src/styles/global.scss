@@ -1228,3 +1228,149 @@ body, html {
         }
     }
 }
+
+.FeaturedArticle {
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: #2F13B8;
+    }
+
+    position: relative;
+    padding: 100px 100px;
+
+    &__heading {
+        font-size: 48px;
+        font-weight: 800;
+        color: #CCE943;
+        text-transform: uppercase;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+
+    &__container {
+        display: flex;
+
+        &--img {
+            &:before {
+                content: '';
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                width: 100%;
+                height: 100%;
+                background-color: #CCE943;
+            }
+
+            position: relative;
+            overflow: visible !important;
+            width: 50%;
+        }
+
+        &--right {
+            max-width: 50%;
+            margin-left: 20px;
+
+            &--title {
+                font-family: Lora, serif;
+                font-size: 52px;
+                font-weight: 700;
+                color: #ffffff;
+                margin: 0px;
+                margin-bottom: 15px;
+            }
+
+            &--desc {
+                font-size: 18px;
+                font-weight: 500;
+                color: #EFEFEF;
+                line-height: 1.2em;
+                margin-bottom: 50px;
+            }
+
+            &--link {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 600;
+                color: #2F13B8;
+                background-color: #CCE943;
+                text-decoration: none;
+                padding: 1em 3em;
+                transition: 200ms ease;
+
+                &:hover, &:focus {
+                    background-color: #b0c933;
+                }
+            }
+        }
+    }
+}
+
+.BlogRoll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 0px 100px;
+    margin-bottom: 200px;
+
+    &__article {
+
+        &--img {
+            &:before {
+                content: '';
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                width: 100%;
+                height: 100%;
+                background-color: #CCE943;
+                display: block;
+            }
+
+            overflow: visible !important;
+            width: 100%;
+            height: 250px;
+        }
+
+        &--title {
+            font-size: 38px;
+            font-weight: 700;
+            color: #121212;
+            margin: 25px 0px;
+        }
+
+        &--desc {
+            font-size: 18px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 50px;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical; 
+            overflow: hidden;
+        }
+
+        &--link {
+            display: block;
+            font-size: 18px;
+            font-weight: 600;
+            color: #2F13B8;
+            background-color: #CCE943;
+            text-decoration: none;
+            padding: 1em;
+            text-align: center;
+            transition: 200ms ease;
+
+            &:hover, &:focus {
+                background-color: #b0c933;
+            }
+        }
+    }
+}
