@@ -2,7 +2,7 @@
 templateKey: article-post
 featured-article: true
 featured-image: apple-resting-on-stack-of-books.jpg
-title: The key to writing child’s resources
+title: The key to writing children’s resources
 date: 2020-09-01T10:01:30.770Z
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
   nisi, tellus, nunc aliquet odio. Id enim vel tincidunt id. Et vitae gravida
