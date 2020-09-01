@@ -7,7 +7,7 @@ import { MdArrowDownward } from 'react-icons/md'
 const FeaturedWorkbook = ({ workbook }) => {
     return (
         <section className="FeaturedWorkbook">
-            <Img fluid={workbook.frontmatter.cover_image.childImageSharp.fluid} className="FeaturedWorkbook__img"/>
+            <Img fluid={workbook.frontmatter.cover_image.childImageSharp.fluid} className="FeaturedWorkbook__img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
             <div className="FeaturedWorkbook__right">
                 <h1 className="FeaturedWorkbook__right--title" >{workbook.frontmatter.title}</h1>
                 <h4 className="FeaturedWorkbook__right--detail-title">PRICE</h4>

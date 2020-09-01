@@ -23,7 +23,7 @@ const Workbook = ({ data }) => {
     return (
         <Layout>
             <article className="Workbook">
-                <Img fluid={data.markdownRemark.frontmatter.cover_image.childImageSharp.fluid} className="Workbook__img"/>
+                <Img fluid={data.markdownRemark.frontmatter.cover_image.childImageSharp.fluid} className="Workbook__img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
                 <div className="Workbook__right">
                     <span className="Workbook__right--detail-title">TITLE</span>
                     <h1 className="Workbook__right--title">{data.markdownRemark.frontmatter.title}</h1>
@@ -41,7 +41,7 @@ const Workbook = ({ data }) => {
                     <SRLWrapper options={options}>
                         <div className="Workbook__right--preview">
                             {data.markdownRemark.frontmatter.galleryImages.map((data, index) =>(
-                                <Img fluid={data.childImageSharp.fluid} key={index} className="Workbook__right--preview--img" />
+                                <Img fluid={data.childImageSharp.fluid} key={index} className="Workbook__right--preview--img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
                             ))}
                         </div>
                     </SRLWrapper>
@@ -54,7 +54,7 @@ const Workbook = ({ data }) => {
 export default Workbook
 
 export const pageQuery = graphql`
-    query ArticlePostBySlug($slug: String) {
+    query WorkbookPostBySlug($slug: String) {
         markdownRemark(fields: { slug: { eq: $slug } }) {
             frontmatter {
                 title

@@ -22,7 +22,7 @@ const TutoringLanding = () => {
                 const image = data.file.childImageSharp.fluid
                 return (
                     <section className="TutoringLanding">
-                        <Img fluid={image} className="TutoringLanding__img"/>
+                        <Img fluid={image} className="TutoringLanding__img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
                         <div className="TutoringLanding__right">
                             <h1 className="TutoringLanding__right--title">Personal Tutoring</h1>
                             <span className="TutoringLanding__right--detail-title">Starting At</span>

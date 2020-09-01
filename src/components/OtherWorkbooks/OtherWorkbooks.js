@@ -36,7 +36,7 @@ const OtherWorkbooks = ({ currentWorkbook }) => {
                         <div className="OtherWorkbooks__container">
                             {otherWorkbooks.map((data, index) => {
                                 return data.node.frontmatter.title !== currentWorkbook.markdownRemark.frontmatter.title &&
-                                    <Link to={data.node.fields.slug} className="OtherWorkbooks__container--link" key={index}><p className="OtherWorkbooks__container--link--title">{data.node.frontmatter.title}</p><Img fluid={data.node.frontmatter.cover_image.childImageSharp.fluid} className="OtherWorkbooks__container--link--img" /></Link>
+                                    <Link to={data.node.fields.slug} className="OtherWorkbooks__container--link" key={index}><p className="OtherWorkbooks__container--link--title">{data.node.frontmatter.title}</p><Img fluid={data.node.frontmatter.cover_image.childImageSharp.fluid} className="OtherWorkbooks__container--link--img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/></Link>
                             })}
                         </div>
                     </section>

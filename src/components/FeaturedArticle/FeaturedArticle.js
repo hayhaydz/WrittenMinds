@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 const FeaturedArticle = ({ article }) => {
-    console.log(article);
     return (
         <section className="FeaturedArticle">
             <h1 className="FeaturedArticle__heading">Featured Article</h1>
