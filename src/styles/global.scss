@@ -230,6 +230,7 @@ body, html {
 }
 
 .HomeBtn {
+    display: inline-block;
     position: relative;
     font-size: 18px;
     font-weight: 600;
@@ -242,7 +243,9 @@ body, html {
 
     &__icon {
         position: absolute;
+        top: 50%;
         right: 25px;
+        transform: translateY(-50%);
         transition: 200ms ease;
     }
 
@@ -258,6 +261,7 @@ body, html {
 .HomeWhy {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex: 1 1;
     margin: 200px 100px;
 
@@ -276,8 +280,8 @@ body, html {
         overflow: visible !important;
         position: relative;
         flex-shrink: 0;
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
     }
 
     &__container {
@@ -287,13 +291,14 @@ body, html {
             font-size: 48px;
             font-weight: 800;
             color: #121212;
+            margin-top: 0px;
+            margin-bottom: 15px;
         }
 
         &--text {
             font-size: 18px;
             font-weight: 500;
             color: #1A1A1A;
-            max-width: 75%;
             line-height: 1.2em;
             margin-bottom: 100px;
         }
@@ -339,6 +344,7 @@ body, html {
 .HomeFeed {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 200px 100px;
 
     &__container {
@@ -352,6 +358,8 @@ body, html {
             font-weight: 800;
             text-align: right;
             color: #121212;
+            margin-top: 0px;
+            margin-bottom: 15px;
         }
 
         &--text {
@@ -359,7 +367,6 @@ body, html {
             font-weight: 500;
             text-align: right;
             color: #1A1A1A;
-            max-width: 75%;
             line-height: 1.2em;
             margin-bottom: 100px;
         }
@@ -379,8 +386,8 @@ body, html {
         overflow: visible !important;
         position: relative;
         flex-shrink: 0;
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
     }
 }
 
@@ -414,6 +421,7 @@ body, html {
         }
 
         &--link {
+            display: inline-block;
             font-size: 18px;
             font-weight: 700;
             color: #5E2BFF;
@@ -1435,5 +1443,447 @@ body, html {
         max-width: 75%;
         margin: auto;
         margin-top: 100px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .HomeWhy {
+        &__container {
+            &--title {
+                font-size: 38px;
+            }
+
+            &--text {
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .HomeProj {
+        &__container {
+            &--title {
+                font-size: 38px;
+            }
+
+            &--text {
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .HomeFeed {
+        &__container {
+            &--title {
+                font-size: 38px;
+            }
+
+            &--text {
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    .Header {
+        &__logo {
+            margin-left: 50px;
+        }
+    }
+
+    .Icon {
+        margin-right: 50px;
+    }
+
+    .Navigation__social {
+        right: 50px;
+    }
+
+    .Landing {
+        &__heading {
+            margin: 0px 50px;
+            margin-bottom: 100px;
+        }
+
+        &__social {
+            right: 50px;
+        }
+    }
+
+    .HomeWhy {
+        margin: 200px 50px;
+    }
+
+    .HomeProj {
+        padding-left: 50px;
+    }
+
+    .HomeFeed {
+        margin: 200px 50px;
+    }
+
+    .Footer {
+        padding: 0px 50px;
+
+        &__container {
+            &:first-of-type {
+                margin-right: 20px;
+            }
+
+            &--title {
+                max-width: 100%;
+            }
+
+            &--subtitle {
+                max-width: 100%;
+            }
+        }
+
+        &__copyright {
+            right: 50px;
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    .HomeWhy {
+        flex-direction: column;
+        align-items: center;
+
+        &__img {
+            margin-bottom: 35px;
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+
+            &--title {
+                text-align: center;
+            }
+
+            &--text {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+
+    .HomeProj {
+        &__container {
+            &--title {
+                max-width: 75%;
+            }
+
+            &--text {
+                font-size: 18px;
+                max-width: 75%;
+            }
+        }
+    }
+
+    .HomeFeed {
+        flex-direction: column;
+        align-items: center;
+
+        &__img {
+            order: 1;
+            margin-bottom: 35px;
+        }
+
+        &__container {
+            order: 2;
+            justify-content: center;
+            align-items: center;
+            margin-right: 0px;
+
+            &--title {
+                text-align: center;
+            }
+
+            &--text {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+
+    .Footer {
+        &__container {
+            &--title {
+                font-size: 38px;
+            }
+
+            &--subtitle {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    .Landing {
+        &__heading {
+            font-size: 38px;
+        }
+    }
+
+    .HomeWhy {
+        margin: 100px 50px;
+    }
+
+    .HomeFeed {
+        margin: 100px 50px;
+    }
+
+    .Footer {
+        flex-direction: column;
+        align-items: flex-start;
+
+        &__container {
+            margin-bottom: 50px;
+            width: 100%;
+
+            &:first-of-type {
+                margin-right: 0px;
+            }
+
+            &--subtitle {
+                margin-bottom: 25px;
+            }
+        }
+
+        &__social {
+            position: relative;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            transform: translateX(0);
+            margin-bottom: 25px;
+        }
+
+        &__copyright {
+            position: relative;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media(max-width: 550px) {
+    .Header {
+        &__logo {
+            margin-left: 20px;
+        }
+    }
+
+    .Icon {
+        margin-right: 20px;
+    }
+
+    .Navigation__social {
+        right: 20px;
+    }
+
+    .Landing {
+
+        &__heading {
+            margin: 0px 20px;
+            margin-bottom: 35px;
+            text-align: left;
+        }
+
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 20px);
+
+            &--btn {
+                &--primary {
+                    margin-right: 0px;
+                    margin-bottom: 15px;
+                }
+
+                text-align: center;
+            }
+        }
+
+        &__social {
+            right: 20px;
+        }
+    }
+
+    .HomeWhy {
+        margin: 100px 20px;
+
+        &__img {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .HomeProj {
+        padding-left: 20px;
+    }
+
+    .HomeFeed {
+        margin: 100px 20px;
+
+        &__img {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .Footer {
+        padding: 0px 20px;
+    }
+}
+
+@media(max-width: 450px) {
+    .Footer {
+        height: auto;
+    }
+
+    .HomeBtn {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 400px) {
+    .Header {
+        height: 50px;
+
+        &__logo {
+            &--img {
+                height: 15px;
+            }
+        }
+    }
+
+    .Navigation {
+        width: 100%;
+        justify-content: center;
+
+        &__nav {
+            margin-top: 0px;
+        }
+
+        &__social {
+            flex-direction: row;
+            bottom: 15px;
+    
+            &--link {
+                &:first-of-type {
+                    margin-bottom: 0px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .Landing {
+
+        &__heading {
+            font-size: 28px;
+        }
+
+        &__buttons {
+            &--btn {
+                font-size: 16px;
+            }
+        }
+
+        &__social {
+            flex-direction: row;
+            bottom: 15px;
+
+            &--link {
+                &:first-of-type {
+                    margin-bottom: 0px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        &__scrollLink {
+            bottom: 15px;
+            padding: 0.2em;
+        }
+    }
+
+    .HomeWhy {
+
+        &__img {
+            width: 280px;
+            height: 280px;
+        }
+
+        &__container {
+
+            &--title {
+                font-size: 32px;
+            }
+
+            &--text {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .HomeProj {
+        padding: 0px 20px;
+
+        &__container {
+            &--title {
+                max-width: 100%;
+            }
+
+            &--text {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .HomeFeed {
+        &__img {
+            width: 280px;
+            height: 280px;
+        }
+
+        &__container {
+
+            &--title {
+                font-size: 32px;
+            }
+
+            &--text {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .Footer {
+        &__container {
+            &--title {
+                font-size: 28px;
+            }
+
+            &--subtitle {
+                font-size: 18px;
+            }
+
+            &--link {
+                font-size: 16px;
+            }
+        }
     }
 }
