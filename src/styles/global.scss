@@ -791,15 +791,23 @@ body, html {
 }
 
 .TutoringLanding {
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        background-color: #3F05C2;
+    }
+
     display: flex;
     justify-content: flex-start;
-    height: calc(100vh - 100px);
-    background-color: #3F05C2;
     padding: 0px 100px;
     padding-top: 100px;
 
     &__img {
-        width: 50%;
+        min-width: 50%;
         height: 800px;
         box-shadow: 10px 25px 100px rgba(0, 0, 0, 0.15);
     }
@@ -861,8 +869,9 @@ body, html {
             font-weight: 500;
             color: #DFDFDF;
             text-decoration: none;
-            // padding: 0.5em 1em;
+            padding: 0.5em 1em;
             transition: 200ms ease;
+            white-space: nowrap;
 
             &:hover, &:focus {
                 color: #C8C8C8;
@@ -947,7 +956,7 @@ body, html {
             color: #1A1A1A;
             max-width: 75%;
             line-height: 1.2em;
-            margin-bottom: 100px;
+            // margin-bottom: 100px;
         }
     }
 
@@ -1029,7 +1038,6 @@ body, html {
 
     &__container {
         margin: 0px 20px;
-        min-width: 300px;
         
         &--subtitle {
             font-size: 28px;
@@ -1043,6 +1051,10 @@ body, html {
             color: #F6F6F6;
             margin: 0px;
             margin-top: 15px;
+        }
+
+        &:last-of-type {
+            min-width: 300px;
         }
     }
 }
@@ -1500,6 +1512,72 @@ body, html {
             }
         }
     }
+
+    .TutoringHow {
+        align-items: center;
+
+        &__img {
+            width: 400px;
+            height: 400px;
+        }
+
+        &__container {
+
+            &--title {
+                font-size: 38px;
+                margin-top: 0px;
+            }
+
+            &--text {
+                font-size: 16px;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .TutoringFeedback {
+        align-items: center;
+
+        &__img {
+            width: 400px;
+            height: 400px;
+        }
+
+        &__container {
+
+            &--title {
+                font-size: 38px;
+                margin-top: 0px;
+            }
+
+            &--text {
+                font-size: 16px;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .TutoringPayment {
+        align-items: center;
+
+        &__img {
+            width: 400px;
+            height: 400px;
+        }
+
+        &__container {
+
+            &--title {
+                font-size: 38px;
+                margin-top: 0px;
+            }
+
+            &--text {
+                font-size: 16px;
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 @media(max-width: 900px) {
@@ -1589,6 +1667,32 @@ body, html {
 
     .OtherWorkbooks {
         padding: 0px 50px;
+    }
+
+    .TutoringLanding {
+        padding: 0px 50px;
+        padding-top: 100px;
+    }
+
+    .TutoringHow {
+        margin: 200px 50px;
+        margin-top: 300px;
+    }
+
+    .TutoringFeedback {
+        margin: 200px 50px;
+    }
+
+    .TutoringPayment {
+        margin: 200px 50px;
+    }
+
+    .TutoringDetails {
+        padding: 0px 50px;
+    }
+
+    .TutoringBook {
+        margin: 200px 50px;
     }
 }
 
@@ -1684,12 +1788,100 @@ body, html {
             }
         }
     }
+
+    .TutoringLanding {
+        &__img {
+            height: 100vh;
+        }
+
+        &__right {
+            &--title {
+                font-size: 52px;
+                margin-top: 0px;
+            }
+
+            &--link {
+                display: block;
+                padding: 1em;
+                text-align: center;
+            }
+        }
+    }
+
+    .TutoringHow {
+        flex-direction: column;
+
+        &__img {
+            margin-bottom: 50px;
+        }
+
+        &__container {
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+
+            &--title {
+                text-align: center;
+            }
+
+            &--text {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+
+    .TutoringFeedback {
+        flex-direction: column;
+
+        &__img {
+            order: 1;
+            margin-bottom: 50px;
+        }
+
+        &__container {
+            order: 2;
+            justify-content: center;
+            align-items: center;
+            margin-right: 0px;
+
+            &--title {
+                text-align: center;
+            }
+
+            &--text {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+
+    .TutoringPayment {
+        flex-direction: column;
+
+        &__img {
+            margin-bottom: 50px;
+        }
+
+        &__container {
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+
+            &--title {
+                text-align: center;
+            }
+
+            &--text {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
 }
 
 @media(max-width: 700px) {
     .FeaturedWorkbook {
-        
-
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -1752,6 +1944,41 @@ body, html {
         &__container {
             grid-template-columns: repeat(3, 1fr);
         }
+    }
+
+    .TutoringLanding {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 100px;
+        height: auto;
+        background-color: transparent;
+
+        &__img {
+            order: 2;
+            min-width: 100%;
+            height: 75vh;
+        }
+
+        &__right {
+            order: 1;
+            width: 100%;
+            max-width: 100%;
+            margin-left: 0px;
+            margin-bottom: 50px;
+
+            &--title {
+                margin-bottom: 25px;
+            }
+
+            &--scrollLink {
+                display: none;
+            }
+        }
+    }
+
+    .TutoringHow {
+        margin-top: 100px;
     }
 }
 
