@@ -637,7 +637,6 @@ body, html {
     &__right {
         position: relative;
         margin-left: 20px;
-        margin-top: 50px;
 
         &--detail-title {
             display: block;
@@ -654,6 +653,13 @@ body, html {
             color: #ffffff;
             margin-top: 0px;
             height: 175px;
+            margin-bottom: 100px;
+        }
+
+        &--img {
+            display: none;
+            width: 100%;
+            box-shadow: 10px 25px 100px rgba(0, 0, 0, 0.15);
         }
 
         &--desc {
@@ -1568,6 +1574,22 @@ body, html {
     .WorkbookRoll {
         margin: 200px 50px;
     }
+
+    .Workbook {
+        padding: 0px 50px;
+        padding-top: 100px;
+
+        &__right {
+            &--title {
+                font-size: 52px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .OtherWorkbooks {
+        padding: 0px 50px;
+    }
 }
 
 @media(max-width: 800px) {
@@ -1679,7 +1701,6 @@ body, html {
             order: 2;
             min-width: 100%;
             height: 75vh;
-            overflow: visible !important;
         }
 
         &__right {
@@ -1701,6 +1722,36 @@ body, html {
     .WorkbookRoll {
         margin-top: 100px;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Workbook {
+        flex-direction: column;
+
+        &__img {
+            display: none;
+        }
+
+        &__right {
+            order: 1;
+            margin-left: 0px;
+
+            &--title {
+                margin-bottom: 35px;
+                height: auto;
+            }
+
+            &--img {
+                display: block;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .OtherWorkbooks {
+
+        &__container {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 }
 
@@ -1832,6 +1883,15 @@ body, html {
     .WorkbookRoll {
         margin: 100px 20px;
     }
+
+    .Workbook {
+        padding: 0px 20px;
+        padding-top: 100px;
+    }
+
+    .OtherWorkbooks {
+        padding: 0px 20px;
+    }
 }
 
 @media(max-width: 450px) {
@@ -1846,6 +1906,27 @@ body, html {
 
     .WorkbookRoll {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Workbook {
+        &__right {
+
+            &--download {
+                width: 100%;
+            }
+
+            &--preview {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .OtherWorkbooks {
+        margin-top: 100px;
+
+        &__container {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 }
 
@@ -1980,5 +2061,11 @@ body, html {
 
     .WorkbookRoll {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .OtherWorkbooks {
+        &__container {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }

@@ -27,6 +27,7 @@ const Workbook = ({ data }) => {
                 <div className="Workbook__right">
                     <span className="Workbook__right--detail-title">TITLE</span>
                     <h1 className="Workbook__right--title">{data.markdownRemark.frontmatter.title}</h1>
+                    <Img fluid={data.markdownRemark.frontmatter.cover_image.childImageSharp.fluid} className="Workbook__right--img" />
                     <span className="Workbook__right--detail-title">DESCRIPTION</span>
                     <p className="Workbook__right--desc">{data.markdownRemark.frontmatter.description}</p>
                     <span className="Workbook__right--detail-title">PRICE</span>
