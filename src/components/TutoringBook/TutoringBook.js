@@ -11,20 +11,20 @@ const TutoringBook = () => {
                     <input type="email" name="Email" className="TutoringBook__form--input" placeholder="Email" required/>
                 </div>
                 <div className="TutoringBook__form--twoThirds">
-                    <input type="text" name="Telephone" className="TutoringBook__form--input TutoringBook__form--twoThirds--inputLong" placeholder="Telephone"/>
-                    <input type="text" name="Child's-Age" className="TutoringBook__form--input TutoringBook__form--twoThirds--inputShort" placeholder="Child's Age" required/>
+                    <input type="text" name="Telephone" className="TutoringBook__form--input" placeholder="Telephone"/>
+                    <input type="text" name="Child's-Age" className="TutoringBook__form--input" placeholder="Child's Age" required/>
                 </div> 
                 <div className="TutoringBook__form--twoThirds">
-                    <select name="Child's-English-Ability" className="TutoringBook__form--input TutoringBook__form--twoThirds--inputLong TutoringBook__form--input--select" required >
+                    <select name="Child's-English-Ability" className="TutoringBook__form--input TutoringBook__form--input--select" required >
                         <option value="">Child's English ability</option>
                         <option value="Poor">Poor</option>
                         <option value="Moderate">Moderate</option>
                         <option value="Good">Good</option>
                         <option value="Excellent">Excellent</option>
                     </select>
-                    <div className="TutoringBook__form--inputIconGroup">
-                        <label htmlFor="Start-Date" className="TutoringBook__form--inputIconGroup--label">Start Date</label>
-                        <input type="date" name="Start-Date" className="TutoringBook__form--input TutoringBook__form--twoThirds--inputShort TutoringBook__form--inputIconGroup--input" placeholder="Start Date"></input>
+                    <div className="TutoringBook__form--inputDate">
+                        <label htmlFor="Start-Date" className="TutoringBook__form--inputDate--label">Start Date</label>
+                        <input type="date" name="Start-Date" className="TutoringBook__form--input TutoringBook__form--inputDate--input" placeholder="Start Date"></input>
                     </div>
                 </div>
                 <div className="TutoringBook__form--rowFull">

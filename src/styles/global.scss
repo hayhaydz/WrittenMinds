@@ -543,7 +543,7 @@ body, html {
             padding: 0.5em 1em;
             transition: 200ms ease;
             white-space: nowrap;
-            margin-top: 50px;
+            margin-top: 100px;
 
             &:hover, &:focus {
                 color: #C8C8C8;
@@ -860,10 +860,6 @@ body, html {
         }
 
         &--scrollLink {
-            position: absolute;
-            bottom: 25px;
-            left: 50%;
-            transform: translateX(-50%);
             display: flex;
             font-size: 18px;
             font-weight: 500;
@@ -872,12 +868,14 @@ body, html {
             padding: 0.5em 1em;
             transition: 200ms ease;
             white-space: nowrap;
+            margin-top: 100px;
 
             &:hover, &:focus {
                 color: #C8C8C8;
             }
 
             &--icon {
+                min-width: 24px;
                 margin-left: 15px;
             }
         }
@@ -885,11 +883,13 @@ body, html {
 }
 
 .TutoringHow {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     flex: 1 1;
     margin: 200px 100px;
-    margin-top: 300px;
+    margin-top: 50vh;
 
     &__img {
 
@@ -1065,10 +1065,10 @@ body, html {
     &__form {
 
         &--input {
+            font-family: Montserrat, sans-serif;
             font-size: 18px;
             font-weight: 600;
             color: #1A1A1A;
-            width: 100%;
             background-color: #F9F9F9;
             padding: 1em;
             border: none;
@@ -1081,10 +1081,6 @@ body, html {
             &--select {
                 color: #888787;
             }
-
-            &:first-of-type {
-                margin-right: 20px;
-            }
         }
 
         &--rowFull {
@@ -1092,48 +1088,40 @@ body, html {
         }
 
         &--rowHalf {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
             margin-bottom: 20px;
         }
 
         &--twoThirds {
-            display: flex;
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
             margin-bottom: 20px;
-            
-            &--input {
-                &Long {
-                    width: 85%;
-                }
-
-                &Short {
-                    width: 15%;
-                }
-            }
         }
 
-        &--inputIconGroup {
+        &--inputDate {
+            width: 100%;
             display: flex;
             position: relative;
-            width: 15%;
 
             &--input {
-                margin-right: 0px !important;
                 width: 100%;
-                color: transparent;
                 color: #888787;
+                padding-left: 15px;
+                text-transform: uppercase;
             }
 
             &--label {
                 position: absolute;
-                left: 5px;
-                top: 50%;
-                transform: translateY(-50%);
-                font-size: 18px;
+                left: 15px;
+                top: 3px;
+                font-size: 12px;
                 font-weight: 600;
                 color: #888787;
-                background-color: #F9F9F9;
-                padding: 1em;
-                margin-top: -5px;
             }
         }
 
@@ -1792,9 +1780,12 @@ body, html {
     .TutoringLanding {
         &__img {
             height: 100vh;
+            min-width: 60%;
         }
 
         &__right {
+            max-width: 40%;
+
             &--title {
                 font-size: 52px;
                 margin-top: 0px;
@@ -1803,6 +1794,13 @@ body, html {
             &--link {
                 display: block;
                 padding: 1em;
+                text-align: center;
+            }
+
+            &--scrollLink {
+                align-items: center;
+                padding: 0px;
+                white-space: normal;
                 text-align: center;
             }
         }
@@ -1875,6 +1873,19 @@ body, html {
             &--text {
                 font-size: 18px;
                 text-align: center;
+            }
+        }
+    }
+
+    .TutoringDetails {
+        &__container {
+
+            &--title {
+                font-size: 42px;
+            }
+
+            &:last-of-type {
+                min-width: 230px;
             }
         }
     }
@@ -1978,7 +1989,33 @@ body, html {
     }
 
     .TutoringHow {
-        margin-top: 100px;
+        margin: 100px 50px;
+    }
+
+    .TutoringFeedback {
+        margin: 100px 50px;
+    }
+
+    .TutoringPayment {
+        margin: 100px 50px;
+    }
+
+    .TutoringDetails {
+        margin-bottom: 100px;
+    }
+
+    .TutoringBook {
+        margin: 100px 50px;
+
+        &__form {
+            &--rowHalf {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            &--twoThirds {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
     }
 }
 
@@ -2029,6 +2066,28 @@ body, html {
             bottom: 0px;
             right: 0px;
             margin-bottom: 20px;
+        }
+    }
+
+    .TutoringDetails {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: auto;
+        padding: 100px 50px;
+
+        &__container {
+            margin: 0px 0px;
+            margin-bottom: 50px;
+
+            &--title {
+                font-size: 52px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0px;
+                min-width: 300px;
+            }
         }
     }
 }
@@ -2119,6 +2178,31 @@ body, html {
     .OtherWorkbooks {
         padding: 0px 20px;
     }
+
+    .TutoringLanding {
+        padding: 0px 20px;
+        padding-top: 100px;
+    }
+
+    .TutoringHow {
+        margin: 100px 20px;
+    }
+
+    .TutoringFeedback {
+        margin: 100px 20px;
+    }
+
+    .TutoringPayment {
+        margin: 100px 20px;
+    }
+
+    .TutoringDetails {
+        padding: 100px 20px;
+    }
+
+    .TutoringBook {
+        margin: 100px 20px;
+    }
 }
 
 @media(max-width: 450px) {
@@ -2153,6 +2237,27 @@ body, html {
 
         &__container {
             grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .TutoringHow {
+        &__img {
+            width: 280px;
+            height: 280px;
+        }
+    }
+
+    .TutoringFeedback {
+        &__img {
+            width: 280px;
+            height: 280px;
+        }
+    }
+
+    .TutoringPayment {
+        &__img {
+            width: 280px;
+            height: 280px;
         }
     }
 }
@@ -2293,6 +2398,69 @@ body, html {
     .OtherWorkbooks {
         &__container {
             grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .TutoringHow {
+        &__img {
+            &:before {
+                top: 10px;
+                right: 10px;
+            }
+        }
+
+        &__container {
+            align-items: flex-start;
+
+            &--title {
+                text-align: left;
+            }
+
+            &--text {
+                text-align: left;
+            }
+        }
+    }
+
+    .TutoringFeedback {
+        &__img {
+            &:before {
+                top: 10px;
+                left: 10px;
+            }
+        }
+
+        &__container {
+            align-items: flex-end;
+
+            &--title {
+                text-align: right;
+            }
+
+            &--text {
+                text-align: right;
+            }
+        }
+    }
+
+    .TutoringPayment {
+        &__img {
+            &:before {
+                top: 10px;
+                left: 10px;
+            }
+        }
+
+        &__container {
+            align-items: flex-start;
+
+            &--title {
+                text-align: left;
+            }
+
+            &--text {
+                text-align: left;
+            }
         }
     }
 }
