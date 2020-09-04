@@ -1463,6 +1463,22 @@ body, html {
 
 // Media Queries
 
+@media (max-width: 1024px) and (min-height: 1366px) {
+    .FeaturedArticle {
+        &:before {
+            height: 65vh;
+        }
+    }
+}
+
+@media(max-width: 1366px) and (min-height: 1024px) {
+    .FeaturedArticle {
+        &:before {
+            height: 65vh;
+        }
+    }
+}
+
 @media(max-width: 1000px) {
     .HomeWhy {
         &__container {
@@ -1566,6 +1582,42 @@ body, html {
                 font-size: 16px;
                 max-width: 100%;
             }
+        }
+    }
+
+    .FeaturedArticle {
+        &__heading {
+            font-size: 38px;
+        }
+
+        &__container {
+            &--right {
+                &--title {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+
+    .BlogRoll {
+        &__article {
+            &--title {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .Article {
+        &__title {
+            max-width: 100%;
+        }
+
+        &__img {
+            max-width: 100%;
+        }
+
+        &__container {
+            max-width: 100%;
         }
     }
 }
@@ -1699,6 +1751,24 @@ body, html {
 
     .AboutDetails {
         margin: 200px 50px;
+    }
+
+    .FeaturedArticle {
+        padding: 100px 50px;
+    }
+
+    .BlogRoll {
+        margin: 0px 50px;
+        margin-bottom: 200px;
+    }
+
+    .Article {
+        padding: 200px 50px;
+        padding-top: 100px;
+
+        &__title {
+            font-size: 52px;
+        }
     }
 }
 
@@ -1906,6 +1976,53 @@ body, html {
                 min-width: 230px;
             }
         }
+    }
+
+    .FeaturedArticle {
+        &:before {
+            display: none;
+        }
+
+        background-color: #2F13B8;
+        padding-bottom: 0px;
+        margin-bottom: 100px;
+
+        &__heading {
+            font-size: 32px;
+        }
+
+        &__container {
+            flex-direction: column;
+
+            &--img {
+                width: 100%;
+            }
+
+            &--right {
+                max-width: 100%;
+                margin-left: 0px;
+                margin-top: 35px;
+
+                &--title {
+                    font-size: 48px;
+                }
+
+                &--desc {
+                    margin-bottom: 35px;
+                }
+
+                &--link {
+                    display: block;
+                    text-align: center;
+                    padding: 1em;
+                    margin-bottom: -25px;
+                }
+            }
+        }
+    }
+
+    .BlogRoll {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -2145,6 +2262,28 @@ body, html {
             }
         }
     }
+
+    .BlogRoll {
+        grid-template-columns: repeat(1, 1fr);
+
+        &__article {
+            &--title {
+                font-size: 38px;
+            }
+        }
+    }
+
+    .Article {
+        padding: 100px 50px;
+
+        &__title {
+            font-size: 42px;
+        }
+
+        &__container {
+            margin-top: 35px;
+        }
+    }
 }
 
 @media(max-width: 550px) {
@@ -2291,6 +2430,20 @@ body, html {
             }
         }
     }
+
+    .FeaturedArticle {
+        padding: 100px 20px;
+        padding-bottom: 0px;
+    }
+
+    .BlogRoll {
+        margin: 0px 20px;
+        margin-bottom: 100px;
+    }
+
+    .Article {
+        padding: 100px 20px;
+    }
 }
 
 @media(max-width: 450px) {
@@ -2346,6 +2499,24 @@ body, html {
         &__img {
             width: 280px;
             height: 280px;
+        }
+    }
+
+    .FeaturedArticle {
+        &__container {
+            &--right {
+                &--title {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+
+    .BlogRoll {
+        &__article {
+            &--title {
+                font-size: 38px;
+            }
         }
     }
 }
@@ -2549,6 +2720,38 @@ body, html {
             &--text {
                 text-align: left;
             }
+        }
+    }
+
+    .FeaturedArticle {
+        &__heading {
+            font-size: 26px;
+        }
+
+        &__container {
+            &--right {
+                &--title {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    .BlogRoll {
+        &__article {
+            &--title {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .Article {
+        &__title {
+            font-size: 32px;
+        }
+
+        &__container {
+            font-size: 16px;
         }
     }
 }
