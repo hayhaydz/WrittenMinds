@@ -1179,6 +1179,7 @@ body, html {
         font-size: 72px;
         font-weight: 700;
         color: #ffffff;
+        text-align: center;
         margin: 0px;
         margin-bottom: 15px;
     }
@@ -1187,6 +1188,7 @@ body, html {
         font-size: 52px;
         font-weight: 400;
         color: #ffffff;
+        text-align: center;
         margin: 0px;
     }
 
@@ -1682,6 +1684,22 @@ body, html {
     .TutoringBook {
         margin: 200px 50px;
     }
+
+    .AboutLanding {
+        padding: 0px 50px;
+    }
+
+    .AboutAttention {
+        margin: 200px 50px;
+
+        &__title {
+            max-width: 100%;
+        }
+    }
+
+    .AboutDetails {
+        margin: 200px 50px;
+    }
 }
 
 @media(max-width: 800px) {
@@ -2017,6 +2035,43 @@ body, html {
             }
         }
     }
+
+    .AboutLanding {
+        &__title {
+            font-size: 52px;
+        }
+
+        &__subtitle {
+            font-size: 38px;
+        }
+    }
+
+    .AboutAttention {
+        margin: 100px 50px;
+
+        &__text {
+            max-width: 100%;
+        }
+    }
+
+    .AboutDetails {
+        margin: 100px 50px;
+        flex-direction: column;
+
+        &__container {
+            &:first-of-type {
+                margin-right: 0px;
+            }
+
+            &--title {
+                max-width: 100%;
+            }
+
+            &--text {
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 @media(max-width: 650px) {
@@ -2202,6 +2257,39 @@ body, html {
 
     .TutoringBook {
         margin: 100px 20px;
+    }
+
+    .AboutLanding {
+        padding: 0px 20px;
+
+        &__title {
+            font-size: 44px;
+        }
+
+        &__subtitle {
+            font-size: 32px;
+        }
+    }
+
+    .AboutAttention {
+        margin: 100px 20px;
+
+        &__title {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .AboutDetails {
+        margin: 100px 20px;
+
+        &__container {
+
+            &--title {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+        }
     }
 }
 
