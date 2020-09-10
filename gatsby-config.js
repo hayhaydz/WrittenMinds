@@ -7,6 +7,16 @@ module.exports = {
     image: "/social_image.jpg"
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-image`,
+    `gatsby-background-image`,
+    `simple-react-lightbox`,
+    `typewriter-effect`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -18,16 +28,6 @@ module.exports = {
         icon: `static/favicon.ico`
       }
     },
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-image`,
-    `gatsby-background-image`,
-    `simple-react-lightbox`,
-    `typewriter-effect`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
