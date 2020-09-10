@@ -2,22 +2,22 @@ module.exports = {
   siteMetadata: {
     title: "WrittenMinds // Children's English tutor and free Worksheets // United Kingdom",
     description: "Writtenminds provides creative teachinsg resources that engage children through practical writing tasks and tutoring.",
-    url: "https://presencecounselling.co.uk",
-    siteUrl: "https://presencecounselling.co.uk",
+    url: "https://writtenminds.com",
+    siteUrl: "https://writtenminds.com",
     image: "/social_image.jpg"
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Presence Counselling`,
-        short_name: `Presence`,
+        name: `WrittenMinds`,
+        short_name: `WrittenMinds`,
         start_url: `/`,
         background_color: `#FAFAFA`,
-        theme_color: `#1F3EEA`,
+        theme_color: `#fc6dab`,
         icon: `static/favicon.png`
       }
-    }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
