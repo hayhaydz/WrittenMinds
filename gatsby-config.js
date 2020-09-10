@@ -15,7 +15,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#FAFAFA`,
         theme_color: `#fc6dab`,
-        icon: `static/favicon.png`
+        icon: `static/favicon.ico`
       }
     },
     `gatsby-plugin-sass`,
