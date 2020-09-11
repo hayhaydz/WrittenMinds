@@ -15,7 +15,7 @@ const Navigation = ({ open, setOpen }) => {
                 </ul>
             </nav>
             <div className="Navigation__social">
-                <a href="https://google.com" className="Navigation__social--link" target="_blank" rel="noreferrer"><AiOutlineInstagram className="Navigation__social--link--icon" aria-label="Visit Instagram page" /></a>
+                <a href="https://www.instagram.com/writtenminds_official/" className="Navigation__social--link" target="_blank" rel="noreferrer"><AiOutlineInstagram className="Navigation__social--link--icon" aria-label="Visit Instagram page" /></a>
                 <a href="https://google.com" className="Navigation__social--link" target="_blank" rel="noreferrer"><AiFillFacebook className="Navigation__social--link--icon" aria-label="Visit Facebook page"/></a>
             </div>
         </div>

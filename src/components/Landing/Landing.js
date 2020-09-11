@@ -33,7 +33,7 @@ const Landing = () => {
                             <Link to={`/tutoring`} className="Landing__buttons--btn Landing__buttons--btn--secondary" >Tutoring</Link>
                         </div>
                         <div className="Landing__social">
-                            <a href="https://google.com" className="Landing__social--link" target="_blank" rel="noreferrer"><AiOutlineInstagram className="Landing__social--link--icon" aria-label="Visit Instagram page" /></a>
+                            <a href="https://www.instagram.com/writtenminds_official/" className="Landing__social--link" target="_blank" rel="noreferrer"><AiOutlineInstagram className="Landing__social--link--icon" aria-label="Visit Instagram page" /></a>
                             <a href="https://google.com" className="Landing__social--link" target="_blank" rel="noreferrer"><AiFillFacebook className="Landing__social--link--icon" aria-label="Visit Facebook page"/></a>
                         </div>
                         <AnchorLink to={`/#why`} className="Landing__scrollLink"><MdChevronRight className="Landing__scrollLink--icon"/></AnchorLink>

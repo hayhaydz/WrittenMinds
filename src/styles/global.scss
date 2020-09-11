@@ -5,6 +5,8 @@ body, html {
 
 .Header {
     position: fixed;
+    top: 0px;
+    left: 0px;
     z-index: 10;
     display: flex;
     justify-content: space-between;
@@ -1461,6 +1463,65 @@ body, html {
     }
 }
 
+.NotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #5E2BFF;
+    padding: 0px 100px;
+
+    &__container {
+        max-width: 75%;
+
+        &--heading {
+            font-family: Lora, serif;
+            font-size: 72px;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.4em;
+            margin: 0px;
+            margin-bottom: 35px;
+        }
+
+        &--text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #F9F9F9;
+            margin-bottom: 50px;
+        }
+
+        &--link {
+            position: relative;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            color: #5E2BFF;
+            background-color: #F7F6C5;
+            padding: 0.8em 3em;
+            text-decoration: none;
+            transition: 200ms ease;
+
+            &--icon {
+                position: absolute;
+                top: 50%;
+                left: 25px;
+                transform: translateY(-50%);
+                transition: 200ms ease;
+            }
+
+            &:hover, &:focus {
+                background-color: #cfcfa5;
+
+                .NotFound__container--link--icon {
+                    transform: translate(-15px, -50%);
+                }
+            }
+        }
+    }
+}
+
 // Media Queries
 
 @media (max-width: 1024px) and (min-height: 1366px) {
@@ -1768,6 +1829,14 @@ body, html {
 
         &__title {
             font-size: 52px;
+        }
+    }
+
+    .NotFound {
+        padding: 0px 50px;
+
+        &__container {
+            max-width: 100%;
         }
     }
 }
@@ -2189,6 +2258,15 @@ body, html {
             }
         }
     }
+
+    .NotFound {
+        
+        &__container {
+            &--heading {
+                font-size: 48px;
+            }
+        }
+    }
 }
 
 @media(max-width: 650px) {
@@ -2443,6 +2521,21 @@ body, html {
 
     .Article {
         padding: 100px 20px;
+    }
+
+    .NotFound {
+        padding: 0px 20px;
+
+        &__container {
+
+            &--heading {
+                font-size: 38px;
+            }
+
+            &--text {
+                font-size: 18px;
+            }
+        }
     }
 }
 
@@ -2752,6 +2845,22 @@ body, html {
 
         &__container {
             font-size: 16px;
+        }
+    }
+
+    .NotFound {
+        &__container {
+            &--heading {
+                margin-bottom: 15px;
+            }
+            
+            &--text {
+                margin-bottom: 25px;
+            }
+
+            &--link {
+                display: block;
+            }
         }
     }
 }
