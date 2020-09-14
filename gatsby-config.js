@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "WrittenMinds // Children's English tutor and free Worksheets // United Kingdom",
-    description: "Writtenminds provides creative teachinsg resources that engage children through practical writing tasks and tutoring.",
+    description: "Writtenminds provides creative teaching resources that engage children through practical writing tasks and tutoring.",
     url: "https://writtenminds.com",
     siteUrl: "https://writtenminds.com",
     image: "/social_image.jpg"
