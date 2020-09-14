@@ -18,6 +18,12 @@ module.exports = {
     `simple-react-lightbox`,
     `typewriter-effect`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-112410411-4"
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `WrittenMinds`,
