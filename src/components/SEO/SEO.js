@@ -14,6 +14,7 @@ const SEO = () => {
 
     return (
         <Helmet>
+            <html lang="en" />
             <title>{title}</title>
             <link rel="canonical" href={url} />
             <meta name="description" content={description} />

@@ -7,12 +7,12 @@ const Footer = () => {
         <footer className="Footer">
             <section className="Footer__container">
                 <h1 className="Footer__container--title" >Looking for a Workbook?</h1>
-                <h3 className="Footer__container--subtitle" >Take a look at our selection!</h3>
+                <h2 className="Footer__container--subtitle" >Take a look at our selection!</h2>
                 <Link to={`/workbooks`} className="Footer__container--link" >Workbooks</Link>
             </section>
             <section className="Footer__container">
                 <h1 className="Footer__container--title" >Looking for a Tutor?</h1>
-                <h3 className="Footer__container--subtitle" >Get in contact now!</h3>
+                <h2 className="Footer__container--subtitle" >Get in contact now!</h2>
                 <Link to={`/tutoring#book`} className="Footer__container--link" >Contact Us</Link>
             </section>
             <div className="Footer__social">
