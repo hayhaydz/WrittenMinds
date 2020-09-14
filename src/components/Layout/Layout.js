@@ -5,10 +5,10 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import SEO from '../SEO/SEO'
 
-const Layout = ({children}) => {
+const Layout = ({children, customTitle, customDescription, customImgSrc}) => {
     return (
         <main className="Layout">
-            <SEO />
+            <SEO customTitle={customTitle} customDescription={customDescription} customImgSrc={customImgSrc}/>
             <Header/>
             {children}
             <Footer/>

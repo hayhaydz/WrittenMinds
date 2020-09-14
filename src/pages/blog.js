@@ -20,7 +20,7 @@ const Blog = ({ data }) => {
     }
 
     return (
-        <Layout>
+        <Layout customTitle="Blog">
             <FeaturedArticle article={featuredArticle} />
             <BlogRoll articleData={articleData} />
         </Layout>

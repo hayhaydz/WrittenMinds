@@ -8,7 +8,7 @@ import HomeFeed from '../components/HomeFeed/HomeFeed'
 
 const Home = () => {
   return (
-    <Layout>
+    <Layout customTitle="Home">
       <Landing />
       <HomeWhy />
       <HomeProj />

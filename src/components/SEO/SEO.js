@@ -2,20 +2,23 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
-const SEO = () => {
+const SEO = ({ customTitle, customDescription, customImgSrc }) => {
     const { site } = useStaticQuery(query)
 
     const defaults = site.siteMetadata
 
-    const title = defaults.title
-    const description = defaults.description
+    const title = customTitle || defaults.title
+    const titleTemplate = defaults.titleTemplate
+    const description = customDescription || defaults.description
     const url = defaults.url
-    const image = `${url}${defaults.image}`
+    const image = customImgSrc && defaults.image
+        ? `${url}${customImgSrc}`
+        : `${url}${defaults.image}`
 
     return (
         <Helmet>
             <html lang="en" />
-            <title>{title}</title>
+            <title>{`${title}${titleTemplate}`}</title>
             <link rel="canonical" href={url} />
             <meta name="description" content={description} />
             {image && <meta name="image" content={image} />}
@@ -42,6 +45,7 @@ const query = graphql`
                 description
                 image
                 title
+                titleTemplate
                 url
             }
         }

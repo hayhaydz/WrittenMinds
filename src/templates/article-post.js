@@ -6,9 +6,10 @@ import Layout from '../components/Layout/Layout'
 
 const Article = ({ data }) => {
     const articleData = data.markdownRemark
+    const imageSrc = articleData.frontmatter.featured_image.childImageSharp.fluid.src
 
     return (
-        <Layout>
+        <Layout customTitle={articleData.frontmatter.title} customDescription={articleData.excerpt} customImgSrc={imageSrc}>
             <article className="Article">
                 <span className="Article__date">{articleData.frontmatter.date}</span>
                 <h1 className="Article__title">{articleData.frontmatter.title}</h1>
@@ -30,10 +31,12 @@ export const pageQuery = graphql`
                     childImageSharp {
                         fluid(maxWidth: 1920, quality: 100) {
                             ...GatsbyImageSharpFluid_withWebp
+                            src
                         }
                     }
                 }
             }
+            excerpt(pruneLength: 200)
             html
         }
     }

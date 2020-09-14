@@ -8,7 +8,7 @@ import AboutDetails from '../components/AboutDetails/AboutDetails'
 
 const About = () => {
     return (
-        <Layout>
+        <Layout customTitle="About">
             <AboutLanding />
             <AboutAttention />
             <AboutDetails />

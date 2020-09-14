@@ -20,8 +20,10 @@ const Workbook = ({ data }) => {
         }
     }
 
+    const imageSrc = data.markdownRemark.frontmatter.cover_image.childImageSharp.fluid.src
+
     return (
-        <Layout>
+        <Layout customTitle={data.markdownRemark.frontmatter.title} customDescription={data.markdownRemark.frontmatter.description} customImgSrc={imageSrc}>
             <article className="Workbook">
                 <Img fluid={data.markdownRemark.frontmatter.cover_image.childImageSharp.fluid} className="Workbook__img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
                 <div className="Workbook__right">
@@ -68,6 +70,7 @@ export const pageQuery = graphql`
                     childImageSharp {
                         fluid(maxWidth: 1920, quality: 100) {
                             ...GatsbyImageSharpFluid_withWebp
+                            src
                         }
                     }
                 }

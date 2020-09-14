@@ -10,7 +10,7 @@ import TutoringBook from '../components/TutoringBook/TutoringBook'
 
 const Tutoring = () => {
     return (
-        <Layout>
+        <Layout customTitle="Tutoring">
             <TutoringLanding />
             <TutoringHow />
             <TutoringFeedback />

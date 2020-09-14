@@ -20,7 +20,7 @@ const Workbooks = ({ data }) => {
   }
 
   return (
-      <Layout>
+      <Layout customTitle="Workbooks">
           <FeaturedWorkbook workbook={featuredWorkbook} />
           <WorkbookRoll workbookData={workbookData} />
       </Layout>
