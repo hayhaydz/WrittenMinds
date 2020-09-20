@@ -46,8 +46,6 @@ Here is another example from a lesson on using neither/nor with another student:
 
 *The beast spat words of venom, saying, "neither the queen nor king is alive." He drew his sword, pointing it towards the prince and shouted, " you will join them!"*
 
-
-
 My point is that parents and educators might get better results by giving their children more freedom when it comes to the format of expression, encouraging them to push the boundaries and negotiate on the flexibility of the task.
 
 <!--EndFragment-->
