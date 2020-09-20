@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
 featured-article: true
-featured-image: apple-resting-on-stack-of-books.jpg
+featured-image: diplomat-disaster2.png
 title: Teaching Children English, why story writing might be the best approach
 date: 2020-09-20T15:00:16.932Z
 description: "\n"
