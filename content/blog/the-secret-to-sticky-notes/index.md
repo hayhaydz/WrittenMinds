@@ -30,7 +30,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
 
 Quote:
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nisi ac enim molestie gravida.
+> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nisi ac enim molestie gravida."
 
 Bulleted List:
 
