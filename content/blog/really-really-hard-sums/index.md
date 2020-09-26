@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-featured-article: true
+featured-article: false
 featured-image: polish_20200926_162020646.jpg
 title: Five words per day to keep brain fog away
 date: 2020-09-01T10:05:04.884Z
