@@ -26,7 +26,7 @@ const TutoringLanding = () => {
                         <div className="TutoringLanding__right">
                             <h1 className="TutoringLanding__right--title">Personal Tutoring</h1>
                             <span className="TutoringLanding__right--detail-title">Starting At</span>
-                            <h2 className="TutoringLanding__right--price">&pound;24.99 <span className="TutoringLanding__right--price--detail">per hour</span></h2>
+                            <h2 className="TutoringLanding__right--price">&pound;14.99 <span className="TutoringLanding__right--price--detail">per hour</span></h2>
                             <AnchorLink to="/tutoring#book" className="TutoringLanding__right--link">Book Now</AnchorLink>
                             <AnchorLink to="/tutoring#how" className="TutoringLanding__right--scrollLink">View more about tutoring <MdArrowDownward className="TutoringLanding__right--scrollLink--icon" /></AnchorLink>
                         </div>
