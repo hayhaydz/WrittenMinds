@@ -1,22 +1,29 @@
 ---
 templateKey: article-post
 featured-article: false
-featured-image: lightbulb-with-bubbles-pointing-off-of.jpg
-title: EnLIGHTening Thinking
+featured-image: polish_20200928_192951571.jpg
+title: Benefits of reading, why kids should read more
 date: 2020-09-01T10:03:39.677Z
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-  nec leo tristique quam gravida imperdiet. Vivamus nulla ex, mattis ut ultrices
-  quis, efficitur a tortor. Fusce maximus dolor et vestibulum auctor. Ut
-  hendrerit urna ultrices lorem egestas, nec molestie tellus molestie. Maecenas
-  aliquam lobortis venenatis. Nullam diam diam, egestas ut tellus vitae, congue
-  aliquam justo. Integer tempus odio a massa mollis viverra.
+description: Unsure about how reading could help your child? Read this.
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur dui a sagittis euismod. Nullam eu purus risus. Sed gravida massa ut magna maximus, non facilisis lectus tempus. Curabitur felis lorem, pharetra eu rhoncus ut, lacinia id eros. Duis tincidunt fermentum libero ut eleifend. Curabitur eleifend vitae tellus sit amet consectetur. Pellentesque a lorem sit amet odio venenatis tincidunt quis ut augue. Pellentesque sit amet nunc vitae neque tincidunt aliquam.
+Reading, according to an article by the [Guardian](https://www.theguardian.com/books/2014/jan/23/can-reading-make-you-smarter), might make us smarter, while increasing our emotional intelligence. The act of following another's story, learning to empathise and read between the lines helps children (adults, too) to think outside the box, learning to adopt an array of perspectives and solutions. 
 
-Proin sit amet mauris vel eros laoreet faucibus at sed arcu. Fusce sed congue ipsum. Aliquam eget erat sit amet sem fringilla volutpat. Nam placerat volutpat elementum. Donec ultrices ligula sit amet lobortis tempor. Ut porta, dolor maximus luctus pretium, justo felis lacinia lectus, vel posuere neque dolor quis magna. Integer sed bibendum est, et elementum sem. Phasellus auctor ante ac volutpat eleifend. Morbi mi tortor, bibendum ac faucibus sed, gravida ut lectus. Fusce cursus eleifend vulputate. Donec facilisis nunc diam, vitae ullamcorper nisl mollis vel. Vivamus convallis elit ac eros sodales interdum. Phasellus condimentum blandit maximus. Ut eu auctor diam. Mauris erat enim, venenatis ac metus vel, tincidunt scelerisque ipsum.
+These benefits improve writing ability and content while bolstering friendships in class. A child is free when they read.
 
-Sed dapibus, lorem sit amet sollicitudin aliquam, nibh lorem cursus dolor, id ullamcorper eros mi in sem. Pellentesque in euismod enim, condimentum sagittis nisl. Vivamus bibendum nulla mi, sed pulvinar lorem fringilla dictum. Nulla ullamcorper, est at maximus fringilla, ex mi placerat odio, eget aliquet nunc diam eget orci. Vestibulum luctus neque non neque sodales, a sagittis massa efficitur. Ut turpis mi, consectetur non dapibus sed, pretium in justo. In nec nunc cursus, feugiat arcu et, condimentum neque. Donec consectetur ultrices aliquam.
+Here are some examples from my tutoring experience of how reading impacts children and their writing.
 
-Nullam tempor dapibus ex ut molestie. Curabitur condimentum varius mauris, vitae suscipit justo volutpat nec. Mauris non iaculis massa. Donec non mattis purus. Quisque mattis lobortis ultrices. Vivamus aliquam dolor sapien, pellentesque tincidunt eros eleifend nec. Sed non sapien aliquam magna faucibus vehicula at porta ex. Ut libero mi, ultrices sed est sed, ornare lobortis ipsum. Suspendisse laoreet erat quis condimentum vulputate. Suspendisse ut mi vitae justo interdum ultrices. Donec euismod congue purus at efficitur.
+**More likely to learn new difficult words**
 
-Suspendisse potenti. Donec fermentum sapien sem, eget iaculis enim ullamcorper vel. Curabitur diam velit, posuere ac risus vitae, dignissim iaculis augue. Duis et magna aliquam, venenatis lacus nec, pulvinar eros. Nam ipsum enim, tristique sed hendrerit ac, vulputate id urna. Nullam finibus dictum tellus ac sagittis. Phasellus finibus augue orci, id ultrices urna tincidunt in. Quisque in lorem dignissim, scelerisque mauris non, pretium tortor. Donec pretium eros vitae nisl malesuada luctus. Proin eget quam mattis, pulvinar lorem tincidunt, cursus justo.
+Once a child discovers the habit of writing down words they don't understand and then using a dictionary to find the meaning, they tend to expand their vocabulary rapidly. They see the unknown as a lesson.
+
+They'll start teaching themselves new words and adopting them in conversation. A year ago, one of my students struggled to find synonyms of *many*, repeatedly using *many* in paragraphs, unable to alternate. That's when we started reading more and discovering words such as variety and multiple, raising the level of their work.
+
+**Exposure to new sentence and writing structures**
+
+Short sentences are a plague if overused and many children rely on them, refusing to be creative and adopt longer structures. Reading exposes children to mature and adventurous alternatives, capable of transforming "Lilly went to the park. Her friends joined her" into "Lilly and her friends ran to the park, which had a variety of flowers." 
+
+**Comprehension improves** 
+
+Stories teach children about an array of topics, adding them when discussing history, politics and while participating in general conversations. The constant decoding of meaning encourages in-depth thought, especially if asked to summarise or react to a story.
+
+It is a chance to practice processing information. A powerful skill indeed.

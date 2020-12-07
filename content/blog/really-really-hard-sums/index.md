@@ -1,22 +1,34 @@
 ---
 templateKey: article-post
 featured-article: false
-featured-image: silhoutte-of-person-doing-math-on-a-whiteboard.jpg
-title: Really, really hard sums.
+featured-image: polish_20200926_162020646.jpg
+title: Five words per day to keep brain fog away
 date: 2020-09-01T10:05:04.884Z
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-  accumsan ligula vel iaculis auctor. Praesent eu elit et nunc pretium mattis.
-  Maecenas condimentum justo nec massa tincidunt ullamcorper. Aenean neque nisi,
-  tincidunt finibus vulputate tempus, sagittis tristique urna. Pellentesque a
-  nisi dui. Nam ornare nulla et bibendum hendrerit. Etiam tristique maximus
-  magna id aliquet. Donec faucibus id arcu sit amet sagittis.
+description: "Do you have chatty children? Need them to speak concisely and use
+  new words? Read this and expand their vocabulary pool! "
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan ligula vel iaculis auctor. Praesent eu elit et nunc pretium mattis. Maecenas condimentum justo nec massa tincidunt ullamcorper. Aenean neque nisi, tincidunt finibus vulputate tempus, sagittis tristique urna. Pellentesque a nisi dui. Nam ornare nulla et bibendum hendrerit. Etiam tristique maximus magna id aliquet. Donec faucibus id arcu sit amet sagittis.
+<!--StartFragment-->
 
-In elementum sagittis metus, a ultrices neque eleifend quis. Nam et leo ante. Integer a libero vitae ante ornare pretium at et lectus. Phasellus a dictum tellus, ac iaculis tellus. Etiam pretium tellus ac nisl malesuada, quis auctor magna posuere. In mattis mattis felis, non feugiat orci scelerisque ut. Cras vel arcu vitae lorem viverra cursus ac sed turpis. Nullam scelerisque id neque vel sagittis. Maecenas pellentesque non arcu quis sodales. Nullam venenatis vulputate velit, non pulvinar justo sodales sed. Nulla id sagittis massa.
+When first tutoring, my students found the descriptive work challenging, because like a handy-man trying to build a house out of scraps, my students were trying to write sentences with ineffective words. We see the impact of small vocabulary pools when children struggle to speak concisely.
 
-Maecenas porta ipsum dolor, non elementum nunc cursus sed. Aenean auctor interdum purus eu convallis. Nunc congue elit ut risus vestibulum, non hendrerit mi dapibus. Ut nisl magna, imperdiet in mattis vel, mollis at purus. Quisque tristique erat vitae enim laoreet, vitae convallis dolor bibendum. Etiam ex sapien, malesuada ut efficitur vitae, rutrum a eros. Etiam at tellus non odio euismod sollicitudin eu et sapien. Morbi non fermentum orci. Ut molestie est ultrices erat dignissim rhoncus.
+Solving this issue is simple, we introduce our children to new words daily, and luckily for you, Writtenminds will upload weekly free spelling sheets.
 
-Donec nisi leo, rutrum sodales semper at, tincidunt a nisi. Morbi et lectus porttitor turpis ornare accumsan. Phasellus arcu nibh, blandit ac dui nec, vestibulum porttitor enim. Aliquam magna orci, elementum et dignissim id, mattis at ipsum. Sed in purus blandit, aliquet dolor vitae, euismod lacus. Nunc et rhoncus nulla. Mauris at turpis arcu. Vivamus egestas nec ligula ut condimentum. Quisque sagittis nisl at nisi pretium dapibus. Vivamus feugiat arcu libero, vitae lobortis diam laoreet vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In scelerisque diam nec nulla egestas euismod. Donec et ipsum lobortis tellus euismod aliquet vel eu ligula.
+**How they work:**
 
-Etiam lobortis justo a nunc consequat molestie. Nulla bibendum consequat viverra. Nulla a ipsum ut ante sagittis pharetra. Praesent in convallis metus. In auctor lorem sit amet neque pulvinar commodo. Vestibulum rutrum justo nec arcu semper, ac volutpat libero lacinia. Mauris sollicitudin tincidunt risus sit amet egestas. In in est sed sem porttitor ornare in sed magna. Phasellus tempus egestas tellus vitae consequat.
+Each task requires your child to search for the meaning of five words using a dictionary (preferably offline), writing it inside a spelling book. Afterwards, they'll write two sentences for each word, showing an understanding of the meaning. The final part requires them to read a written scenario and write about it using the word. Here is an example below:
+
+*Scenario one- word: Nocturnal*
+
+*Late at night, a detective was alerted to a missing person case deep within London and must investigate the situation.*
+
+
+
+***Student example:***
+
+Late at night, a detective has been alerted to a missing person case deep within London and must investigate the situation.
+
+The mysterious kidnapper was nocturnal, looking from the footsteps it was a light student aged 15. The detective followed the footstep with caution not to go onto a different track. And what he saw in front of him you wouldn't believe.
+
+The task should take 15-30mins every day.
+
+<!--EndFragment-->
