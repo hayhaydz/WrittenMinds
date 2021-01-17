@@ -12,4 +12,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
   convallis tortor. Duis vitae neque eget quam semper placerat.
 price: Free
 workbook-pdf: taskbooklet-explaining-scenes.pdf
+galleryImages:
+  - colors-rainbow-counting-numbers-nature.webp
+  - practice-tracing-letter.webp
+  - single-digit-addition-first-grade.webp
 ---
