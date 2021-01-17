@@ -1,7 +1,7 @@
 ---
 templateKey: workbook-post
 featured-workbook: true
-cover-image: pngegg.png
+cover-image: canva-blue-yellow-and-red-illustrated-children-s-book-cover-7rgn8r09fq0.webp
 title: See, Explain and Write
 date: 2021-01-17T12:00:33.826Z
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
