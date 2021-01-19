@@ -34,7 +34,7 @@ const Workbook = ({ data }) => {
                     <p className="Workbook__right--desc">{data.markdownRemark.frontmatter.description}</p>
                     <span className="Workbook__right--detail-title">PRICE</span>
                     <h3 className="Workbook__right--price">{data.markdownRemark.frontmatter.price}</h3>
-                    <a href={data.markdownRemark.frontmatter.workbook_pdf.relativePath} className="Workbook__right--download" onClick={() => setDownloading(true)} download>
+                    <a href={data.markdownRemark.frontmatter.workbook_pdf.publicURL} className="Workbook__right--download" onClick={() => setDownloading(true)} download>
                         {!downloading ?
                             'Download'
                             : 'Downloading...'
@@ -64,7 +64,7 @@ export const pageQuery = graphql`
                 description
                 price
                 workbook_pdf {
-                    relativePath
+                    publicURL
                 }
                 cover_image {
                     childImageSharp {
