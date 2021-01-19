@@ -24,7 +24,7 @@ const TutoringPayment = () => {
                         <div className="TutoringPayment__container">
                             <h1 className="TutoringPayment__container--title">Payment methods</h1>
                             <p className="TutoringPayment__container--text">We are flexible and have a range of accounts, including PayPal. You chose the method.</p>
-                            <p className="TutoringPayment__container--text">We only charge £20 per lesson (1hr30mins) and offer free workbooks once finished.</p>
+                            <p className="TutoringPayment__container--text">We only charge £14.50 per lesson (1hr30mins) and offer free workbooks once finished.</p>
                         </div>
                     </section>
                 )

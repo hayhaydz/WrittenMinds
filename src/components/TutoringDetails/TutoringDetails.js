@@ -10,7 +10,7 @@ const TutoringDetails = () => {
             </div>
             <div className="TutoringDetails__container">
                 <span className="TutoringDetails__container--subtitle">Tutoring Hours</span>
-                <h1 className="TutoringDetails__container--title">500</h1>
+                <h1 className="TutoringDetails__container--title">1,000</h1>
             </div>
             <div className="TutoringDetails__container">
                 <span className="TutoringDetails__container--subtitle">Topics Covered</span>
